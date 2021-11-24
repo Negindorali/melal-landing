@@ -21,13 +21,120 @@
 <div class="container-fluid p-0">
     <!--start-hero-section-->
     <div class="col-md-12 hero-section position-relative">
+        <div class="offcanvas offcanvas-end" id="demo">
+            <div class="offcanvas-header ">
+                <img src="{{asset('assets/images/PwaAssets/menu-logo.png')}}" alt="" class="img-fluid mx-auto">
+                <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times text-muted"></i></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <ul class="nav flex-column p-0">
+                    <li class="pr-4 border-bottom mt-2 pb-3"><a href="#" class="text-danger d-block">قیمت لحظه ای</a></li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="nav-link text-dark font-15">خرید آسان</a>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="nav-link menu text-dark font-15" data-target="#rebar-price">قیمت میلگرد
+                            <i class="fa fa-chevron-down float-left "></i>
+                        </a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="rebar-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="nav-link menu text-dark font-15" data-target="#tirAhan-price">
+                            قیمت تیرآهن<i class="fa fa-chevron-down float-left  menu">
+                        </i>
+                        </a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="tirAhan-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#varaq-price">قیمت ورق<i class="fa fa-chevron-down float-left  menu"></i></a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="varaq-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#pipe-price">قیمت لوله<i class="fa fa-chevron-down float-left  menu"></i></a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="pipe-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#profile-price">قیمت پروفیل<i class="fa fa-chevron-down float-left menu"></i></a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="profile-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#nabshi-price">قیمت نبشی<i class="fa fa-chevron-down float-left  menu"></i></a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="nabshi-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#maftool-price">قیمت مفتول<i class="fa fa-chevron-down float-left  menu"></i></a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="maftool-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#shemsh-price">قیمت شمش آهنی<i class="fa fa-chevron-down float-left  menu"></i></a>
+                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="shemsh-price">
+                            <ul class="nav flex-column p-0">
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="text-dark font-15 nav-link">دانشنامه</a>
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="text-dark font-15 nav-link">محاسبه وزن</a>
+
+                    </li>
+                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
+                        <a href="#" class="text-dark font-15 nav-link">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light pt-2">
-            <a class="navbar-brand" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid"
-                                                  alt="لوگو-آهن-ملل"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="btn pr-0 d-md-none d-lg-none d-sm-block" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <i class="fa fa-bars text-white" style="font-size: 18pt"></i>
+            </a>
+            <a class="navbar-brand" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid" alt="لوگو-آهن-ملل"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
@@ -50,9 +157,8 @@
                     </li>
                 </ul>
             </div>
-            <a href="#" dir="ltr" class="font-weight-bold text-white pt-0 mt-0" style="font-size: 13pt"><img
-                    src="/assets/images/phone-call.svg" class="mr-2" alt="melal-call"><span class="text-danger"
-                                                                                            style="font-size: 13pt">031 -</span>
+            <a href="#" dir="ltr" class="font-weight-bold text-white pt-0 mt-0" style="font-size: 15pt"><img
+                    src="/assets/images/phone-call.svg" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 15pt">031 -</span>
                 35020</a>
 
         </nav>
@@ -172,8 +278,8 @@
             <img src="/assets/images/mockup.png" alt="" class="img-fluid">
         </div>
         <div class="col-md-5 pl-5 py-5 mt-4 pr-0 mr-auto">
-            <h5 class="text-right">جدیدترین <span class="text-danger">قیمت</span> محصولات فولادی </h5>
-            <h5 class="text-right">بدون جست و جو و تماس تلفنی</h5>
+            <h5 class="text-right font-weight-bold">جدیدترین <span class="text-danger">قیمت</span> محصولات فولادی </h5>
+            <h5 class="text-right font-weight-bold">بدون جست و جو و تماس تلفنی</h5>
             <p class="text-justify py-3 pl-5" style="font-size: 10pt;">
                 ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
                 طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود
@@ -308,12 +414,12 @@
             </p>
             <button class="btn float-right px-4 btn-channel text-white">دانلود کاتالوگ محصولات</button>
         </div>
-        <div class="col-md position-relative">
+        <div class="col-md position-relative d-none d-md-block d-lg-block">
             <img src="/assets/images/Landing%20Responsive-image5.jpg" alt=""
                  class="img-fluid position-absolute col-7 zoom"
-                 style="left: 16rem;top: 13rem;border-radius: 8px">
+                 style="left: 16rem;top: 13rem;border-radius: 8px!important;">
             <img src="/assets/images/pexels-daria-sannikova-3021139.png" alt=""
-                 class="img-fluid position-absolute col-7" style="left: 4rem;top: 2rem;border-radius: 8px">
+                 class="img-fluid position-absolute col-7" style="left: 4rem;top: 2rem;border-radius: 8px!important;">
         </div>
     </div>
     <!--    end-catalog-part-->
@@ -393,6 +499,7 @@
             <a href=""><img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="" class="img-fluid" width="90" height="74"></a>
     </div>
 </div>
+</div>
 
 <!--footer-->
 <script src="https://code.jquery.com/jquery.js"></script>
@@ -416,5 +523,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

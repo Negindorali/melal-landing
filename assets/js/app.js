@@ -15,6 +15,6 @@ $('.count').click(function () {
     const target = $(this).data('target');
     $(this).find('i').toggleClass('fa fa-minus text-white');
     $(this).find('i').toggleClass('fa fa-chevron-up');
-    $(target).toggle(500).parent().toggleClass("targets");
+    $(target).toggle(700).parent().toggleClass("targets");
 })
 // easyOrder-----------------------------------------------------

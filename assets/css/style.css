@@ -76,3 +76,13 @@
     right: 10%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
+.btn-channel{
+    background-color: #E4021B;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgba(228, 2, 27 , 0.20);
+}
+.project{
+    box-shadow: 5px 10px 10px rgba(191, 215, 237 , 0.50);
+    border-radius: 8px;
+
+}

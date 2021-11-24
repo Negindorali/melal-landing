@@ -1,0 +1,78 @@
+/** {*/
+/*    transition: all 1s;*/
+/*}*/
+@font-face {
+    font-family: irsans;
+    src: url("../font/fonts/IRANSansWeb(FaNum)_Light.woff");
+}
+
+@font-face {
+    font-family: irsans-b;
+    src: url("../font/fonts/irsans-b.woff");
+}
+
+@font-face {
+    font-family: irsans-m;
+    src: url("../font/fonts/irsans-m.woff");
+}
+
+* {
+    font-family: irsans;
+    text-decoration: none !important;
+
+}
+
+.hero-section {
+    background-image: url('/assets/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31rem;
+    width: inherit;
+}
+
+.nav-item {
+    font-size: 12.5pt;
+}
+
+.nav-link {
+    color: white !important;
+
+}
+
+.nav-item.active {
+    border-bottom: 2px solid white;
+}
+
+.sabt-input {
+    border-radius: 5px;
+    font-size: 10pt;
+    background-color: #BFD7ED;
+}
+
+.sabt-section {
+    border-radius: 5px;
+    bottom: 23rem;
+    right: 22%;
+    box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
+}
+
+.btn-sabt {
+    background-color: #E4021B;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgba(191, 215, 237 , 0.20);
+}
+
+.faq-head {
+    font-size: 15pt;
+}
+.targets{
+    background-color: #055C9D!important;
+    color: white!important;
+    border-radius:5px ;
+}
+.sabt-section-phone{
+    border-radius: 5px;
+    bottom: 1.5rem;
+    right: 10%;
+    box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
+}

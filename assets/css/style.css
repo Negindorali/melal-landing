@@ -28,6 +28,7 @@
     background-size: cover;
     height: 31rem;
     width: inherit;
+    background-position: center center;
 }
 
 .nav-item {
@@ -51,38 +52,67 @@
 
 .sabt-section {
     border-radius: 5px;
-    bottom: 23rem;
-    right: 22%;
+    bottom: 24rem;
+    right: 13%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
 
 .btn-sabt {
     background-color: #E4021B;
     border-radius: 8px;
-    box-shadow: 5px 10px 10px rgba(191, 215, 237 , 0.20);
+    box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
 
 .faq-head {
     font-size: 15pt;
 }
-.targets{
-    background-color: #055C9D!important;
-    color: white!important;
-    border-radius:5px ;
+
+.targets {
+    background-color: #055C9D !important;
+    color: white !important;
+    border-radius: 5px;
 }
-.sabt-section-phone{
+
+.sabt-section-phone {
     border-radius: 5px;
     bottom: 1.5rem;
     right: 10%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
-.btn-channel{
+
+.btn-channel {
     background-color: #E4021B;
     border-radius: 8px;
-    box-shadow: 5px 10px 10px rgba(228, 2, 27 , 0.20);
+    box-shadow: 5px 10px 10px rgba(228, 2, 27, 0.20);
 }
-.project{
-    box-shadow: 5px 10px 10px rgba(191, 215, 237 , 0.50);
+
+.project {
+    box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.50);
     border-radius: 8px;
 
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 99999;
+}
+
+.background-shape {
+    background:  rgba(191, 215, 237,0.20);
+    width: 104rem;
+    height: 87rem;
+    -ms-transform: skewY(-20deg);
+    -webkit-transform: skewY(25deg);
+    position: absolute;
+    top: 55rem;
+    left: 0;
+}
+
+.icons i:hover{
+    margin-right: 10rem;
 }

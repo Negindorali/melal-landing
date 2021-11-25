@@ -4,8 +4,7 @@ $(".part-section").click(function (event) {
     const id = $(this).attr('href');
     $("a.active").removeClass("active");
     $(this).addClass("active");
-    $(".experts-panel.active").removeClass("active").hide();
-    $(id).addClass("active").show();
+
 });
 
 

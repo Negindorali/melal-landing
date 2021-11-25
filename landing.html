@@ -20,112 +20,32 @@
 
 <div class="container-fluid p-0">
     <!--start-hero-section-->
-    <div class="col-md-12 hero-section position-relative">
+    <div class="col-md-12 pb-5 hero-section position-relative">
         <div class="offcanvas offcanvas-end" id="demo">
-            <div class="offcanvas-header ">
-                <img src="{{asset('assets/images/PwaAssets/menu-logo.png')}}" alt="" class="img-fluid mx-auto">
-                <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times text-muted"></i></button>
+            <div class="offcanvas-header my-2">
+                <button type="button" class="btn btn-close text-left btn-block" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times text-danger d-block"></i></button>
             </div>
             <div class="offcanvas-body p-0">
-                <ul class="nav flex-column p-0">
-                    <li class="pr-4 border-bottom mt-2 pb-3"><a href="#" class="text-danger d-block">قیمت لحظه ای</a></li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="nav-link text-dark font-15">خرید آسان</a>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="nav-link menu text-dark font-15" data-target="#rebar-price">قیمت میلگرد
-                            <i class="fa fa-chevron-down float-left "></i>
-                        </a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="rebar-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="nav-link menu text-dark font-15" data-target="#tirAhan-price">
-                            قیمت تیرآهن<i class="fa fa-chevron-down float-left  menu">
-                        </i>
-                        </a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="tirAhan-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#varaq-price">قیمت ورق<i class="fa fa-chevron-down float-left  menu"></i></a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="varaq-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#pipe-price">قیمت لوله<i class="fa fa-chevron-down float-left  menu"></i></a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="pipe-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#profile-price">قیمت پروفیل<i class="fa fa-chevron-down float-left menu"></i></a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="profile-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#nabshi-price">قیمت نبشی<i class="fa fa-chevron-down float-left  menu"></i></a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="nabshi-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#maftool-price">قیمت مفتول<i class="fa fa-chevron-down float-left  menu"></i></a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="maftool-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="font-15 text-dark nav-link menu" data-target="#shemsh-price">قیمت شمش آهنی<i class="fa fa-chevron-down float-left  menu"></i></a>
-                        <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="shemsh-price">
-                            <ul class="nav flex-column p-0">
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                                <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="text-dark font-15 nav-link">دانشنامه</a>
-                    </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="text-dark font-15 nav-link">محاسبه وزن</a>
+                <img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="" class="img-fluid text-center d-flex mx-auto" width="80" height="80">
 
+                <ul class="nav flex-column p-0 text-right mt-5">
+                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">
+                        <a href="#" class="text-muted font-15 my-auto">سوالات متداول</a>
                     </li>
-                    <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                        <a href="#" class="text-dark font-15 nav-link">تماس با ما</a>
+                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">
+                        <a href="#" class="text-muted font-15" data-target="#rebar-price">محصولات
+                        </a>
+                    </li>
+                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">
+                        <a href="#" class=" text-muted font-15" data-target="#tirAhan-price">
+                            راهنمای خرید
+                        </a>
+                    </li>
+                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">
+                        <a href="#" class="font-15 text-muted" data-target="#varaq-price">پروژه ها</a>
+                    </li>
+                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">
+                        <a href="#" class="font-15 text-muted" data-target="#pipe-price">دانش نامه و اخبار</a>
                     </li>
                 </ul>
             </div>
@@ -137,11 +57,8 @@
             <a class="navbar-brand" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid" alt="لوگو-آهن-ملل"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active ml-3">
                         <a class="nav-link" href="#">محصولات <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="#">قیمت ها</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">سوالات متداول</a>
@@ -158,16 +75,16 @@
                 </ul>
             </div>
             <a href="#" dir="ltr" class="font-weight-bold text-white pt-0 mt-0" style="font-size: 15pt"><img
-                    src="/assets/images/phone-call.svg" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 15pt">031 -</span>
+                    src="assets/images/phone-call.svg" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 15pt">031 -</span>
                 35020</a>
 
         </nav>
         <h2 class="text-white mt-5 text-center font-weight-bold">از صفر تا 100 زنجیره فولاد</h2>
         <h2 class="text-white text-center font-weight-bold">را برای شما فراهم می کنیم</h2>
-        <p class="text-white text-center pt-5">پایین ترین قیمت محصولات فولادی! این یک اشتباه تایپی نیست!</p>
+        <p class="text-white text-center py-5">پایین ترین قیمت محصولات فولادی! این یک اشتباه تایپی نیست!</p>
     </div>
     <!--end-hero-section-->
-    <div class="background-shape"></div>
+    <div class="background-shape d-none d-md-block d-lg-block"></div>
 </div>
 
 <div class="container p-0">
@@ -190,8 +107,10 @@
                     <input type="text" placeholder="شماره تماس" class="form-control sabt-input" id="call"/>
                 </div>
                 <div class="col-md-2">
-                    <a href="#" class="btn btn-block text-white btn-sabt d-block icons">ثبت<i
-                            class="fa fa-arrow-left mr-3"></i></a>
+                    <button class="btn btn-block d-flex text-white btn-sabt d-block icons rpZizi justify-content-center">
+                        <label class="p-0 m-0">ثبت</label>
+                        <p id="space"></p>
+                        <i class="fa fa-arrow-left mr-3 my-auto"></i></button>
                 </div>
             </div>
         </form>
@@ -272,20 +191,23 @@
     <!--    end-FAQ-section-->
 
     <!--start-channel-invitation-->
-    <div class="row my-5 py-5">
+    <div class="row my-5 py-5 mx-auto">
         <!--        <img src="assets/images/pattern.svg" alt="">-->
-        <div class="col-md-5">
-            <img src="/assets/images/mockup.png" alt="" class="img-fluid">
+        <div class="col-md-5 order-1 order-md-0">
+            <img src="assets/images/mockup.png" alt="" class="img-fluid">
         </div>
-        <div class="col-md-5 pl-5 py-5 mt-4 pr-0 mr-auto">
-            <h5 class="text-right font-weight-bold">جدیدترین <span class="text-danger">قیمت</span> محصولات فولادی </h5>
-            <h5 class="text-right font-weight-bold">بدون جست و جو و تماس تلفنی</h5>
-            <p class="text-justify py-3 pl-5" style="font-size: 10pt;">
+        <div class="col-md-5 col-12 pl-md-5 py-5 mt-5 pr-md-0 mr-auto order-0 order-md-1">
+            <h5 class="text-center text-md-right font-weight-bold">جدیدترین <span class="text-danger">قیمت</span> محصولات فولادی </h5>
+            <h5 class="text-center text-md-right font-weight-bold">بدون جست و جو و تماس تلفنی</h5>
+            <p class=" text-justify py-3 pl-md-5" style="font-size: 10pt;">
                 ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
                 طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود
                 در ارائه راهکارهامورد استفاده قرار گیرد.
             </p>
-            <button class="btn float-right px-4 btn-channel text-white">مشاهده کانال تلگرام</button>
+            <button class="btn float-right px-4 btn-channel text-white d-none d-md-flex">مشاهده کانال تلگرام</button>
+        </div>
+        <div class="col-12 order-2 text-center">
+            <button class="btn btn-block  btn-channel text-white d-block d-md-none">مشاهده کانال تلگرام</button>
         </div>
     </div>
     <!--end-channel-invitation-->
@@ -295,7 +217,7 @@
     <!--start-melal-projects-->
     <h3 class="text-center my-5">پروژه های <span class="text-danger">موفق</span></h3>
     <div class="row mx-auto">
-        <div id="projects" class="carousel slide" data-ride="carousel">
+        <div id="projects" class="carousel slide d-none d-md-block" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#projects" data-slide-to="0" class="active bg-danger"></li>
                 <li data-target="#projects" data-slide-to="1" class="bg-danger"></li>
@@ -305,7 +227,7 @@
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="/assets/images/prfile.png" alt="" class="img-fluid">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
                                 <p class="pt-4 mx-4">آزادراه تهران</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
@@ -319,7 +241,7 @@
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="/assets/images/prfile.png" alt="" class="img-fluid">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
                                 <p class="pt-4 mx-4">آزادراه تهران</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
@@ -333,7 +255,7 @@
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="/assets/images/prfile.png" alt="" class="img-fluid">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
                                 <p class="pt-4 mx-4">آزادراه تهران</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
@@ -350,7 +272,7 @@
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="/assets/images/prfile.png" alt="" class="img-fluid">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
                                 <p class="pt-4 mx-4">آزادراه تهران</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
@@ -364,7 +286,7 @@
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="/assets/images/prfile.png" alt="" class="img-fluid">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
                                 <p class="pt-4 mx-4">آزادراه تهران</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
@@ -378,7 +300,7 @@
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="/assets/images/prfile.png" alt="" class="img-fluid">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
                                 <p class="pt-4 mx-4">آزادراه تهران</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
@@ -394,17 +316,136 @@
 
             </div>
         </div>
+        <div id="projects1" class="carousel slide d-md-none" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#projects" data-slide-to="0" class="active bg-danger"></li>
+                <li data-target="#projects" data-slide-to="1" class="bg-danger"></li>
+                <li data-target="#projects" data-slide-to="2" class="bg-danger"></li>
+                <li data-target="#projects" data-slide-to="3" class="bg-danger"></li>
+                <li data-target="#projects" data-slide-to="4" class="bg-danger"></li>
+                <li data-target="#projects" data-slide-to="5" class="bg-danger"></li>
+            </ol>
+            <div class="carousel-inner pb-4">
+                <div class="carousel-item active">
+                    <div class="row px-3">
+                        <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
+                            <div class="row">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
+                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                            </div>
+                            <p class="text-justify pt-3" style="font-size: 8pt">
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="carousel-item">
+                    <div class="row px-3">
+                        <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
+                            <div class="row">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
+                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                            </div>
+                            <p class="text-justify pt-3" style="font-size: 8pt">
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row px-3">
+                        <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
+                            <div class="row">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
+                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                            </div>
+                            <p class="text-justify pt-3" style="font-size: 8pt">
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row px-3">
+                        <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
+                            <div class="row">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
+                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                            </div>
+                            <p class="text-justify pt-3" style="font-size: 8pt">
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row px-3">
+                        <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
+                            <div class="row">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
+                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                            </div>
+                            <p class="text-justify pt-3" style="font-size: 8pt">
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row px-3">
+                        <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
+                            <div class="row">
+                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
+                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                            </div>
+                            <p class="text-justify pt-3" style="font-size: 8pt">
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون
+                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                                و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
     <!--end-melal-projects-->
 </div>
 
 <div class="container">
     <!--    start-catalog-part-->
-    <div class="row my-5 justify-content-center py-5">
-        <div class="col-md-5 mx-5 py-5 px-3">
-            <h5 class="text-right font-weight-bold">اگه هنوز قصد <span class="text-danger">خرید</span> ندارید!</h5>
-            <p class="text-justify py-3 pl-4" style="font-size: 10pt;">
+    <div class="row mx-auto my-5 justify-content-center py-5">
+        <div class="col-md-5 mx-md-5 py-5 px-md-3">
+            <h5 class="text-md-right text-center font-weight-bold">اگه هنوز قصد <span class="text-danger">خرید</span> ندارید!</h5>
+            <p class="text-justify py-3 pl-md-4" style="font-size: 10pt;">
                 ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
                 بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
                 متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
@@ -412,21 +453,22 @@
                 طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود
                 در ارائه راهکارهامورد استفاده قرار گیرد.
             </p>
-            <button class="btn float-right px-4 btn-channel text-white">دانلود کاتالوگ محصولات</button>
+            <button class="btn text-center btn-block d-md-none d-block btn-channel text-white">دانلود کاتالوگ محصولات</button>
+            <button class="btn float-right px-4 d-none d-md-flex btn-channel text-white">دانلود کاتالوگ محصولات</button>
         </div>
-        <div class="col-md position-relative d-none d-md-block d-lg-block">
-            <img src="/assets/images/Landing%20Responsive-image5.jpg" alt=""
+        <div class="col-md position-relative d-none d-md-block d-lg-block mr-auto">
+            <img src="assets/images/Landing%20Responsive-image5.jpg" alt=""
                  class="img-fluid position-absolute col-7 zoom"
                  style="left: 16rem;top: 13rem;border-radius: 8px!important;">
-            <img src="/assets/images/pexels-daria-sannikova-3021139.png" alt=""
-                 class="img-fluid position-absolute col-7" style="left: 4rem;top: 2rem;border-radius: 8px!important;">
+            <img src="assets/images/pexels-daria-sannikova-3021139.png" alt=""
+                 class="img-fluid position-absolute col-7" style="left: 0rem;top: 2rem;border-radius: 8px!important;">
         </div>
     </div>
     <!--    end-catalog-part-->
 
     <!--start-melal-factories-->
     <div class="row mx-auto my- pt-5">
-        <div id="factory" class="carousel slide" data-ride="carousel">
+        <div id="factory" class="carousel slide d-none d-md-block" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#factory" data-slide-to="0" class="active bg-danger"></li>
                 <li data-target="#factory" data-slide-to="1" class="bg-danger"></li>
@@ -435,42 +477,85 @@
                 <div class="carousel-item active">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="/assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory.png" alt="" class="img-fluid">
                         </div>
 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="factory1" class="carousel slide d-md-none" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#factory1" data-slide-to="0" class="active bg-danger"></li>
+                <li data-target="#factory1" data-slide-to="1" class="bg-danger"></li>
+                <li data-target="#factory1" data-slide-to="2" class="bg-danger"></li>
+                <li data-target="#factory1" data-slide-to="3" class="bg-danger"></li>
+                <li data-target="#factory1" data-slide-to="4" class="bg-danger"></li>
+                <li data-target="#factory1" data-slide-to="5" class="bg-danger"></li>
+            </ol>
+            <div class="carousel-inner pb-4">
+                <div class="carousel-item active">
+                    <div class="col bg-white my-4 mx-2 py-3 px-4">
+                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col mx-2 bg-white my-4 py-3 px-4">
+                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col mx-2 bg-white my-4 py-3 px-4">
+                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col mx-2 bg-white my-4 py-3 px-4">
+                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col mx-2 bg-white my-4 py-3 px-4">
+                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col mx-2 bg-white my-4 py-3 px-4">
+                        <img src="assets/images/factory.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -479,26 +564,26 @@
     </div>
     <!--end-melal-factories-->
 </div>
-<div class="container-fluid">
-    <div class="row mx-auto mt-4 py-3 pt-4 px-5" style="background-color: rgba(249,249,249,1)">
-        <div class="col-md-3 pt-3 float-right">
+<div class="container-fluid p-0">
+    <div class="row mx-auto mt-4 py-3 pt-4 px-md-5" style="background-color: rgba(249,249,249,1)">
+        <div class="col-md-3 pt-3 float-md-right mx-5 px-5">
             <i class="fab fa-instagram mx-1 rounded-circle bg-danger text-white p-2"></i>
             <i class="fab fa-telegram mx-1 rounded-circle bg-danger text-white p-2 "></i>
             <i class="fab fa-linkedin-in mx-1 rounded-circle bg-danger text-white p-2 "></i>
             <i class="fab fa-facebook-f mx-1 rounded-circle bg-danger text-white p-2 "></i>
         </div>
-        <div class="col-md-3 pt-3 text-center">
+        <div class="col-md-3 pt-md-3 pt-5 text-center">
             <a href="#" dir="ltr" class="font-weight-bold text-dark pt-0 mt-0" style="font-size: 12pt"><img
-                    src="/assets/images/phone-call.png" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 12pt">031 -</span>
+                    src="assets/images/phone-call.png" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 12pt">031 -</span>
                 35020</a>
         </div>
-        <div class="col-md-3 pt-4 text-center">
+        <div class="col-md-3 pt-md-4 pt-5 text-center order-1 order-md-0">
             <p style="font-size: 9pt">تمامی حقوق این سایت برای شرکت آهن ملل اصفهان محفوظ می باشد.</p>
         </div>
-        <div class="col-md-1">
-            <a href=""><img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="" class="img-fluid" width="90" height="74"></a>
+        <div class="col-md-1 pt-3 pt-md-0 mx-5 px-5 mx-md-0 px-md-0 order-0 order-md-1 mt-4 mt-md-0">
+            <a href=""><img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="" class="img-fluid d-block mx-md-0 mx-5" width="90" height="74"></a>
+        </div>
     </div>
-</div>
 </div>
 
 <!--footer-->

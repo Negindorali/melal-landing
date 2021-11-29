@@ -50,7 +50,7 @@
 
 .sabt-section {
     border-radius: 5px;
-    bottom: 29rem;
+    top: -5.5rem;
     right: 13%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
@@ -73,8 +73,8 @@
 
 .sabt-section-phone {
     border-radius: 5px;
-    bottom: 1.5rem;
-    right: 10%;
+    top: -7.5rem;
+    right: 8.5%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
 

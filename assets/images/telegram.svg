@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="32" height="32" transform="translate(-0.179)" fill="#e4021b"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="32" height="32" fill="#e4021b"/>
+    </clipPath>
+  </defs>
+  <g id="Group_42" data-name="Group 42" transform="translate(0.179)" clip-path="url(#clip-path)">
+    <g id="Mask_Group_44" data-name="Mask Group 44" transform="translate(-0.179 0)" clip-path="url(#clip-path-2)">
+      <path id="telegram" d="M15.96,1.5A15.96,15.96,0,1,0,31.92,17.46,15.957,15.957,0,0,0,15.96,1.5ZM23.8,12.434,21.179,24.777c-.193.875-.714,1.088-1.442.676l-3.99-2.941-1.924,1.853a1.007,1.007,0,0,1-.8.393L13.3,20.7l7.394-6.68c.322-.283-.071-.444-.5-.161L11.063,19.61,7.124,18.38c-.856-.27-.875-.856.18-1.268l15.387-5.934C23.406,10.922,24.03,11.353,23.8,12.434Z" transform="translate(-0.004 -1.5)" fill="#e4021b"/>
+    </g>
+  </g>
+</svg>

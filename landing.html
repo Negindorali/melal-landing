@@ -1,87 +1,101 @@
 <!DOCTYPE html>
+
 <html lang="fa">
+
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing</title>
+    <title>آهن ملل</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-
-    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.4-web/css/regular.min.css">
-
 </head>
+
 <body dir="rtl">
 
 <div class="container-fluid p-0">
     <!--start-hero-section-->
     <div class="col-md-12 pb-5 hero-section">
+        <!--        phone-menu-->
         <div class="offcanvas offcanvas-end" id="demo">
             <div class="offcanvas-header my-2">
-                <button type="button" class="btn btn-close text-left btn-block" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times text-danger d-block"></i></button>
+                <button type="button" class="btn btn-close text-left btn-block" data-bs-dismiss="offcanvas"
+                        aria-label="Close"><i class="fa fa-times text-danger d-block"></i></button>
             </div>
             <div class="offcanvas-body p-0">
-                <img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="" class="img-fluid text-center d-flex mx-auto" width="80" height="80">
+                <img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt=""
+                     class="img-fluid text-center d-flex mx-auto" width="80" height="80">
 
                 <ul class="nav flex-column p-0 text-right mt-5">
                     <li class="nav-item pr-4 pb-3 mt-3 select-nav">
                         <a href="#" class="text-muted font-15 my-auto">سوالات متداول</a>
                     </li>
                     <li class="nav-item pr-4 pb-3 mt-3 select-nav">
-                        <a href="#" class="text-muted font-15" data-target="#rebar-price">محصولات
+                        <a href="#why-melal" class="text-muted font-15" data-target="#rebar-price">چرا آهن ملل؟
                         </a>
                     </li>
                     <li class="nav-item pr-4 pb-3 mt-3 select-nav">
-                        <a href="#" class=" text-muted font-15" data-target="#tirAhan-price">
-                            راهنمای خرید
+                        <a href="#robot-telegram" class="text-muted font-15" data-target="#telegram-robot">
+                            ربات تلگرامی
                         </a>
                     </li>
                     <li class="nav-item pr-4 pb-3 mt-3 select-nav">
-                        <a href="#" class="font-15 text-muted" data-target="#varaq-price">پروژه ها</a>
+                        <a href="#successed-projects" class="font-15 text-muted" data-target="#projects">پروژه های
+                            موفق</a>
                     </li>
-                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">
-                        <a href="#" class="font-15 text-muted" data-target="#pipe-price">دانش نامه و اخبار</a>
-                    </li>
+                    <!--                    <li class="nav-item pr-4 pb-3 mt-3 select-nav">-->
+                    <!--                        <a href="#" class="font-15 text-muted" data-target="#pipe-price"></a>-->
+                    <!--                    </li>-->
                 </ul>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light pt-2">
+        <!--        phone-menu-->
+        <nav class="navbar navbar-expand-lg navbar-light pt-2 px-0 px-md-5">
             <a class="btn pr-0 d-md-none d-lg-none d-sm-block" data-bs-toggle="offcanvas" data-bs-target="#demo">
                 <i class="fa fa-bars text-white" style="font-size: 18pt"></i>
             </a>
-            <a class="navbar-brand" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid" alt="لوگو-آهن-ملل"></a>
+            <a class="navbar-brand d-block d-md-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png"
+                                                                    class="img-fluid" width="60" height="60"
+                                                                    alt="لوگو-آهن-ملل"></a>
+            <a class="navbar-brand d-md-block d-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png"
+                                                                    class="img-fluid" alt="لوگو-آهن-ملل"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active ml-3">
-                        <a class="nav-link part-section active" href="#">محصولات <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ml-3">
+                        <a class="menus px-3 pb-1 d-block" href="#why-melal">چراآهن ملل؟ </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link part-section" href="#">سوالات متداول</a>
+                        <a class="menus px-3 pb-1 d-block" href="#faq-part">سوالات متداول</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link part-section">راهنمای خرید</a>
+                        <a class="menus px-3 pb-1 d-block" href="#robot-telegram">ربات تلگرامی</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link part-section">پروژه ها</a>
+                        <a class="menus px-3 pb-1 d-block" href="#successed-projects">پروژه های موفق</a>
                     </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link part-section">دانش نامه و اخبار</a>
-                    </li>
+                    <!--                    <li class="nav-item px-3">-->
+                    <!--                        <a class="menus px-3 pb-1 d-block" href="#">دانش نامه و اخبار</a>-->
+                    <!--                    </li>-->
                 </ul>
             </div>
-            <a href="#" dir="ltr" class="font-weight-bold text-white pt-0 mt-0" style="font-size: 15pt"><img
-                    src="assets/images/phone-call.svg" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 15pt">031 -</span>
+            <a href="tel:03135020" dir="ltr" class="font-weight-bold text-white pt-0 mt-0 d-none d-md-block"
+               style="font-size: 15pt"><img
+                    src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span class="text-danger"
+                                                                                                 style="font-size: 15pt">031 -</span>
+                35020</a>
+            <a href="tel:03135020" dir="ltr" class="font-weight-bold text-white pt-0 mt-0 d-md-none d-block"
+               style="font-size: 12pt"><img
+                    src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span class="text-danger"
+                                                                                                 style="font-size: 12pt">031 -</span>
                 35020</a>
 
         </nav>
-        <h3 class="text-white mt-5 text-center font-weight-bold">از صفر تا 100 زنجیره فولاد</h3>
-        <h3 class="text-white text-center font-weight-bold">را برای شما فراهم می کنیم</h3>
-        <p class="text-white text-center py-5">پایین ترین قیمت محصولات فولادی! این یک اشتباه تایپی نیست!</p>
+        <h3 class="text-white mt-5 text-center font-weight-bold">از
+            صفر تا 100 زنجیره فولاد</h3>
+        <h3 class="text-white text-center font-weight-bold">را برای
+            شما فراهم می کنیم</h3>
+        <p class="text-white text-center py-5" style="font-size: 15pt">پایین ترین
+            قیمت محصولات فولادی! این یک اشتباه تایپی نیست!</p>
     </div>
     <!--end-hero-section-->
     <div class="background-shape d-none d-md-block d-lg-block"></div>
@@ -89,21 +103,21 @@
 
 <div class="container p-0 position-relative">
     <!--    start-form-section-->
-    <div class="col-md-8 bg-white mx-5 pb-4 position-absolute pt-4 sabt-section px-0 d-none d-md-block">
+    <div class="col-md-12 bg-white mx-5 pb-4 position-absolute pt-4 sabt-section px-0 d-none d-md-block">
         <form action="">
-            <div class="row justify-content-center mx-0 px-0">
-                <div class="col-md-3 text-right">
+            <div class="row justify-content-center mx-0 px-3">
+                <div class="col-md-3 px-4 text-right">
                     <select id="type" class="sabt-input form-control">
-                        <option>میلگرد</option>
-                        <option>تیرآهن</option>
-                        <option>شمش آهن</option>
-                        <option>نبشی و ناودانی</option>
+                        <option class="form-control">میلگرد</option>
+                        <option class="form-control">تیرآهن</option>
+                        <option class="form-control">شمش آهن</option>
+                        <option class="form-control">نبشی و ناودانی</option>
                     </select>
                 </div>
-                <div class="col-md-3 text-right">
+                <div class="col-md-3 px-4 text-right">
                     <input type="text" placeholder="مقدار" class="form-control sabt-input" id="meqdar"/>
                 </div>
-                <div class="col-md-3 text-right">
+                <div class="col-md-3 px-4 text-right">
                     <input type="text" placeholder="شماره تماس" class="form-control sabt-input" id="call"/>
                 </div>
                 <div class="col-md-2">
@@ -116,7 +130,7 @@
         </form>
     </div>
 
-    <div class="col-10 mx-auto bg-white pb-4 mb-5 position-absolute pt-3 sabt-section-phone px-0 d-block d-md-none">
+    <div class="col-10 mx-auto pb-4 mb-5 position-absolute pt-3 sabt-section-phone px-0 d-block d-md-none">
         <form action="">
             <div class="row justify-content-center mx-0 px-0 mb-3 py-3">
                 <div class="col-6 text-right">
@@ -131,7 +145,7 @@
                     <input type="text" placeholder="مقدار" class="form-control sabt-input" id="mizan"/>
                 </div>
             </div>
-            <div class="col-12 mb-3 text-right">
+            <div class="col-12 mb-4 text-right">
                 <input type="text" placeholder="شماره تماس" class="form-control sabt-input" id="tamas"/>
             </div>
             <div class="col-md-2">
@@ -142,10 +156,11 @@
     <!--    end-form-section-->
 
     <!--    start-FAQ-section-->
-    <div class="col-md-12 mx-auto my-5 py-5">
-        <h3 class="text-center my-5 pt-5">سوالات <span class="text-danger">متداول</span></h3>
+    <div class="col-md-12 mx-auto my-md-5 py-md-5 py-3 pt-5 pt-md-0 mt-5" id="faq-part">
+        <h3 class="text-center my-5 pt-5">سوالات <span
+                class="text-danger ">متداول</span></h3>
         <div class="col-md-12 mx-auto justify-content-center px-0"
-             style="background-color: rgba(249, 249, 249,1);border-radius: 8px;z-index: 999999">
+             style="background-color: rgba(249, 249, 249,1);border-radius: 8px;">
             <ul class="px-3">
                 <li class="text-right d-block py-3 px-0 faq-head count" data-target="#faq">
                     <i class="fa fa-plus float-right pl-3" style="color: #055C9D;font-size: 15pt"></i>
@@ -163,7 +178,8 @@
                     <i class="fa fa-chevron-down float-left" style="color: #055C9D;font-size: 13.25pt"></i>
                 </li>
                 <div class="collapse col-md-8 pb-3 mx-0" id="faq1" style="background-color: #055C9D;">
-                    <p class="text-right">برای راحتی شما عزیزان نیازی به انتخاب کارخانه نیست، برای راحتی شما عزیزان بعد از ثبت اطلاعات، کارشناسان آهن‌ملل با شما تماس می‌گیرند.</p>
+                    <p class="text-right">برای راحتی شما عزیزان نیازی به انتخاب کارخانه نیست، برای راحتی شما عزیزان بعد
+                        از ثبت اطلاعات، کارشناسان آهن‌ملل با شما تماس می‌گیرند.</p>
                 </div>
             </ul>
             <ul class="px-3">
@@ -201,31 +217,34 @@
     <!--    end-FAQ-section-->
 
     <!--start-channel-invitation-->
-    <div class="row my-5 py-5 mx-auto">
+    <div class="row my-md-5 py-md-5 mx-auto" id="robot-telegram">
         <!--        <img src="assets/images/pattern.svg" alt="">-->
         <div class="col-md-5 order-1 order-md-0">
             <img src="assets/images/mockup.png" alt="" class="img-fluid">
         </div>
         <div class="col-md-5 col-12 pl-md-5 py-5 mt-5 pr-md-0 mr-auto order-0 order-md-1">
-            <h5 class="text-center text-md-right font-weight-bold">جدیدترین <span class="text-danger">قیمت</span> محصولات فولادی </h5>
+            <h5 class="text-center text-md-right font-weight-bold">جدیدترین <span class="text-danger">قیمت</span>
+                محصولات فولادی </h5>
             <h5 class="text-center text-md-right font-weight-bold">بدون جست و جو و تماس تلفنی</h5>
-            <p class=" text-justify py-3 pl-md-5" style="font-size: 10pt;">
-                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
-                طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود
-                در ارائه راهکارهامورد استفاده قرار گیرد.
-            </p>
-            <button class="btn float-right px-4 btn-channel text-white d-none d-md-flex">مشاهده کانال تلگرام</button>
+            <p class="text-md-right text-center py-3 pl-md-5" style="font-size: 10pt;">با استفاده از این ربات می‌توانید
+                در هر زمانی
+                از روز که بخواهید، بدون استعلام تلفنی محصول فولادی مورد نظرتان را انتخاب و قیمت به‌‍روز آن را
+                دریافت کنید. ربات تلگرامی دریافت قیمت محصولات آهن ملل به‌صورت رایگان در اختیار تمام فعالین بازار فولاد
+                قرار گرفته است.</p>
+            <a href="https://t.me/joinchat/Trw8_DK-DEYJzFP3"
+               class="btn float-right px-4 btn-channel text-white d-none d-md-flex">مشاهده کانال تلگرام</a>
         </div>
-        <div class="col-12 order-2 text-center">
-            <button class="btn btn-block  btn-channel text-white d-block d-md-none">مشاهده کانال تلگرام</button>
+        <div class="col-12 px-5 px-md-0 order-2 text-center">
+            <a href="https://t.me/joinchat/Trw8_DK-DEYJzFP3"
+               class="btn btn-block py-3 py-md-0 btn-channel text-white d-block d-md-none">مشاهده کانال تلگرام</a>
         </div>
     </div>
     <!--end-channel-invitation-->
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid px-md-5 px-1" id="successed-projects">
     <!--start-melal-projects-->
-    <h3 class="text-center my-5">پروژه های <span class="text-danger">موفق</span></h3>
+    <h3 class="text-center my-5 pt-5 pt-md-0">پروژه های <span class="text-danger">موفق</span></h3>
     <div class="row mx-auto">
         <div id="projects" class="carousel slide d-none d-md-block" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -237,43 +256,46 @@
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/قرارگاه%20خاتم.png" alt="" class="img-fluid"
+                                     width="100" height="100">
+                                <p class="pt-4 mx-4">قرارگاه خاتم</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/shahrdari%20isf.png" alt="" class="img-fluid"
+                                     height="100" width="100">
+                                <p class="pt-4 mx-4">شهرداری اصفهان</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/شهرداری%20شیراز.png" alt="" class="img-fluid"
+                                     width="100" height="100">
+                                <p class="pt-4 mx-4">شهرداری شیراز</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
@@ -282,43 +304,46 @@
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/Oil-Ministry.png" alt="" class="img-fluid" height="100"
+                                     width="100">
+                                <p class="pt-4 mx-4">وزارت نفت</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/لوگوی-آموزش-و-پرورش-فارس.png" alt="" class="img-fluid"
+                                     height="100" width="100">
+                                <p class="pt-4 mx-4">آموزش و پرورش استان فارس</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
 
                         <div class="col-md bg-white my-4 mx-4 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/logo%20(1).png" alt="" class="img-fluid" height="100"
+                                     width="100">
+                                <p class="pt-4 mx-4">صنایع غذایی ماسترفوده</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
@@ -340,195 +365,197 @@
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/قرارگاه%20خاتم.png" alt="" class="img-fluid" width="80"
+                                     height="80">
+                                <p class="pt-4 mx-4">قرارگاه خاتم</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/shahrdari%20isf.png" alt="" class="img-fluid"
+                                     height="80" width="80">
+                                <p class="pt-4 mx-4">شهرداری اصفهان</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/شهرداری%20شیراز.png" alt="" class="img-fluid"
+                                     height="80" width="80">
+                                <p class="pt-4 mx-4">شهرداری شیراز</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/Oil-Ministry.png" alt="" class="img-fluid" height="80"
+                                     width="80">
+                                <p class="pt-4 mx-4">وزارت نفت</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/لوگوی-آموزش-و-پرورش-فارس.png" alt="" class="img-fluid"
+                                     height="80" width="80">
+                                <p class="pt-4 mx-4">آموزش و پرورش استان فارس</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
                     <div class="row px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4 project">
                             <div class="row">
-                                <img src="assets/images/prfile.png" alt="" class="img-fluid">
-                                <p class="pt-4 mx-4">آزادراه تهران</p>
+                                <img src="assets/images/projects/logo%20(1).png" alt="" class="img-fluid" height="80"
+                                     width="80">
+                                <p class="pt-4 mx-4">صنایع غذایی ماسترفوده</p>
                             </div>
                             <p class="text-justify pt-3" style="font-size: 8pt">
-                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                چاپگرها و متون
-                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                                و کاربردهای
-                                متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                قرارگاه سازندگی خاتم الانبیاء از جمله سازمان‌های شبه‌دولتی و یکی از بازوهای سپاه
+                                پاسداران انقلاب اسلامی می‌باشد. هدف از تأسیس این سازمان آب‌رسانی، صدور نفت و گاز، اجرای
+                                پروژه‌های
+                                سدسازی، انتقال آب، نیرو و راه‌سازی بوده است. شرکت آهن ملل، افتخار تامین مصالح فولادی به
+                                ویژه میلگرد این پروژه بزرگ و مهم کشور را در رزومه خود دارد.
                             </p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     <!--end-melal-projects-->
-</div>
 
-<div class="container">
     <!--    start-catalog-part-->
-    <div class="row mx-auto my-5 justify-content-center py-5">
-        <div class="col-md-5 mx-md-5 py-5 px-md-3 order-0">
-            <h5 class="text-md-right text-center font-weight-bold">اگه هنوز قصد <span class="text-danger">خرید</span> ندارید!</h5>
-            <p class="text-justify py-3 pl-md-4" style="font-size: 10pt;">
-                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
-                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
-                متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
-                فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود
-                در ارائه راهکارهامورد استفاده قرار گیرد.
-            </p>
-            <button class="btn float-right px-4 d-none d-md-flex btn-channel text-white">دانلود کاتالوگ محصولات</button>
+    <div class="row mx-auto my-md-5 my-3 justify-content-center py-md-5 py-3 px-md-5" id="why-melal">
+        <div class="col-md-5 mx-md-5 py-5 px-md-3 order-0 mt-md-5">
+            <h5 class="text-md-right text-center font-weight-bold">اگه هنوز قصد <span class="text-danger">خرید</span>
+                ندارید!</h5>
+            <p class="text-md-right text-center py-3 pl-md-4" style="font-size: 10pt;">با دانلود کاتالوگ مجموعه آهن ملل
+                در هر زمانی
+                از روز که نیاز به هر نوع محصول فولادی داشته باشید فقط کافی‌ست دوباره به کاتالوگ مراجعه کنید.</p>
+            <a download="رزومه شرکت آهن ملل اصفهان.pdf" href="../uploads/رزومه شرکت آهن ملل اصفهان.pdf"
+               class="btn-block">
+                <button class="btn float-right px-4 d-none d-md-flex btn-channel text-white">دانلود کاتالوگ محصولات
+                </button>
+            </a>
         </div>
-        <button class="btn text-center btn-block d-md-none d-block btn-channel text-white order-2 my-4">دانلود کاتالوگ محصولات</button>
+        <a download="رزومه شرکت آهن ملل اصفهان.pdf" href="../uploads/رزومه%20شرکت%20آهن%20ملل%20اصفهان.pdf"
+           class="btn text-center btn-block mx-5 d-md-none d-block btn-channel text-white order-2 my-4 mt-5 py-3">دانلود
+            کاتالوگ
+            محصولات</a>
         <div class="col-md position-relative d-none d-md-block d-lg-block mr-auto">
             <img src="assets/images/Landing%20Responsive-image5.jpg" alt=""
-                 class="img-fluid position-absolute col-7 zoom"
+                 class="img-fluid position-absolute zoom col-md-6"
                  style="left: 16rem;top: 13rem;border-radius: 8px!important;">
             <img src="assets/images/pexels-daria-sannikova-3021139.png" alt=""
-                 class="img-fluid position-absolute col-7" style="left: 0rem;top: 2rem;border-radius: 8px!important;">
+                 class="img-fluid position-absolute col-md-6l"
+                 style="left: 0rem;top: 2rem;border-radius: 8px!important;">
         </div>
-
         <div class="col-md position-relative my-5 py-5 d-block d-md-none mr-auto order-1">
             <img src="assets/images/Landing%20Responsive-image5.jpg" alt=""
                  class="img-fluid position-absolute col-7 zoom"
                  style="left: 7rem;top: 2rem;border-radius: 8px!important;">
             <img src="assets/images/pexels-daria-sannikova-3021139.png" alt=""
-                 class="img-fluid position-absolute col-7" style="left:0rem;top: -5rem;border-radius: 8px!important;">
+                 class="img-fluid position-absolute col-7" style="left:1rem;top: -5rem;border-radius: 8px!important;">
         </div>
     </div>
     <!--    end-catalog-part-->
 
     <!--start-melal-factories-->
-    <div class="row mx-auto my- pt-5">
-        <div id="factory" class="carousel slide d-none d-md-block" data-ride="carousel">
+    <div class="row mx-auto px-md-5 px-0 pt-5">
+        <div id="factory" class="carousel slide d-none d-md-block mt-5 pt-5 mb-4" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#factory" data-slide-to="0" class="active bg-danger"></li>
                 <li data-target="#factory" data-slide-to="1" class="bg-danger"></li>
             </ol>
-            <div class="carousel-inner pb-4">
+            <div class="carousel-inner pb-4 mt-5">
                 <div class="carousel-item active">
-                    <div class="row px-3">
+                    <div class="row mx-auto px-md-5 px-0">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Sadr-Steel.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Sirjan-Iranian-Steel.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Siaden-Steel.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Shahin-Bonab-Steel.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Rouhina-Steel-Company-Logo.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row px-3">
+                    <div class="row mx-auto px-3">
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Persian-Steel.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/EsfahanSteel-logo-LimooGraphic.png" alt=""
+                                 class="img-fluid">
                         </div>
 
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/arm-evand.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Saba-Steel.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md bg-white my-4 mx-2 py-3 px-4">
-                            <img src="assets/images/factory.png" alt="" class="img-fluid">
+                            <img src="assets/images/factory/Sirjan-Hadid-Jonoob-Origi.png" alt="" class="img-fluid">
                         </div>
 
                     </div>
@@ -548,32 +575,32 @@
             <div class="carousel-inner pb-4">
                 <div class="carousel-item active">
                     <div class="col bg-white my-4 mx-2 py-3 px-4">
-                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                        <img src="assets/images/factory/Sadr-Steel.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col mx-2 bg-white my-4 py-3 px-4">
-                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                        <img src="assets/images/factory/Sirjan-Iranian-Steel.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col mx-2 bg-white my-4 py-3 px-4">
-                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                        <img src="assets/images/factory/Siaden-Steel.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col mx-2 bg-white my-4 py-3 px-4">
-                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                        <img src="assets/images/factory/Shahin-Bonab-Steel.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col mx-2 bg-white my-4 py-3 px-4">
-                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                        <img src="assets/images/factory/Rouhina-Steel-Company-Logo.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col mx-2 bg-white my-4 py-3 px-4">
-                        <img src="assets/images/factory.png" alt="" class="img-fluid">
+                        <img src="assets/images/factory/Persian-Steel.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -581,51 +608,45 @@
         </div>
     </div>
     <!--end-melal-factories-->
+
+
 </div>
-<div class="container-fluid p-0">
-    <div class="row mx-auto mt-4 py-3 pt-4 px-md-5" style="background-color: rgba(249,249,249,1)">
-        <div class="col-md-3 col-auto pt-3 float-md-right mx-5 px-5">
-            <i class="fab fa-instagram mx-1 rounded-circle bg-danger text-white p-2"></i>
-            <i class="fab fa-telegram mx-1 rounded-circle bg-danger text-white p-2 "></i>
-            <i class="fab fa-linkedin-in mx-1 rounded-circle bg-danger text-white p-2 "></i>
-            <i class="fab fa-facebook-f mx-1 rounded-circle bg-danger text-white p-2 "></i>
+
+<footer>
+    <div class="row mx-auto mt-4 py-3 pt-4" style="background-color: rgba(249,249,249,1)">
+        <div class="col-md-3 col-auto pt-3 mx-5 mx-md-0 px-5">
+            <a href="https://www.instagram.com/ahanmelal/"><img src="assets/images/instagram.svg" class="p-2"/></a>
+            <a href="https://t.me/joinchat/Trw8_DK-DEYJzFP3"> <img src="assets/images/telegram.svg" class="p-2"></a>
+            <a href="https://www.linkedin.com/company/ahanmelal"><img class="p-2" src="assets/images/linkdin.svg"></a>
+            <a href="https://www.facebook.com/ahanmelalco"><img src="assets/images/facebook.svg" class="p-2"></a>
         </div>
         <div class="col-md-3 pt-md-3 pt-5 text-center">
-            <a href="#" dir="ltr" class="font-weight-bold text-dark pt-0 mt-0" style="font-size: 12pt"><img
-                    src="assets/images/phone-call.png" class="mr-2" alt="melal-call"><span class="text-danger" style="font-size: 12pt">031 -</span>
+            <a href="tel:03135020" dir="ltr" class="font-weight-bold text-dark pt-0 mt-0" style="font-size: 12pt"><img
+                    src="assets/images/phone-call.png" class="mr-2" alt="melal-call"><span class="text-danger"
+                                                                                           style="font-size: 12pt">031 -</span>
                 35020</a>
         </div>
-        <div class="col-md-3 pt-md-4 pt-5 text-center order-1 order-md-0">
+        <div class="col-md-3 pt-md-4 pt-4 text-center order-1 order-md-0">
             <p style="font-size: 9pt">تمامی حقوق این سایت برای شرکت آهن ملل اصفهان محفوظ می باشد.</p>
         </div>
-        <div class="col-md-1 pt-3 pt-md-0 mx-5 px-5 mx-md-0 px-md-0 order-0 order-md-1 mt-4 mt-md-0">
-            <a href=""><img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="" class="img-fluid d-block mx-md-0 mx-5" width="90" height="74"></a>
+        <div class="col-md-2 pt-3 pt-md-0 mx-5 px-5 order-0 order-md-1 mt-4 mt-md-0">
+            <a href="#"><img src="assets/images/Logo-AhanMelal-85x85-neww.png" alt="لوگو آهن ملل"
+                             class="img-fluid d-block float-md-left mx-md-5 mx-5" width="70" height="74"></a>
         </div>
     </div>
-</div>
+</footer>
 
 <!--footer-->
 <script src="https://code.jquery.com/jquery.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="assets/js/app.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.easing.1.3.js"></script>
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/jquery.stellar.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/jquery.animateNumber.min.js"></script>
-<script src="assets/js/bootstrap-datepicker.js"></script>
-<script src="assets/js/jquery.timepicker.min.js"></script>
-<script src="assets/js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="assets/js/google-map.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-<script src="assets/js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>

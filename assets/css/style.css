@@ -23,11 +23,10 @@
 }
 
 .hero-section {
-    background-image: url('../images/hero-bg.png');
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background:linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)),url('../images/hero-bg.png') no-repeat center center !important;
     height: 30rem;
+
 }
 
 .nav-item {
@@ -56,6 +55,7 @@
     font-size: 10pt;
     background-color: rgba(191,215,237,1);
     border-color: rgba(191,215,237,1);
+    height: 2.75rem;
 
 }
 
@@ -84,7 +84,7 @@
 
 .sabt-section-phone {
     border-radius: 5px;
-    top: -7.5rem;
+    top: -9rem;
     right: 8.5%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
     background-color: rgba(242,242,242,1);
@@ -256,23 +256,30 @@ a.text-muted:active {
     padding: 10px;
 }
 
-img.phone{
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake .9s;
+/*img.phone{*/
+/*    !* Start the shake animation and make the animation last for 0.5 seconds *!*/
+/*    animation: shake .9s;*/
 
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
+/*    !* When the animation is finished, start again *!*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+/*@keyframes shake {*/
+/*    0% { transform: translate(1px, 1px) rotate(0deg); }*/
+/*    10% { transform: translate(-1px, -2px) rotate(-1deg); }*/
+/*    20% { transform: translate(-3px, 0px) rotate(1deg); }*/
+/*    30% { transform: translate(3px, 2px) rotate(0deg); }*/
+/*    40% { transform: translate(1px, -1px) rotate(1deg); }*/
+/*    50% { transform: translate(-1px, 2px) rotate(-1deg); }*/
+/*    60% { transform: translate(-3px, 1px) rotate(0deg); }*/
+/*    70% { transform: translate(3px, 1px) rotate(-1deg); }*/
+/*    80% { transform: translate(-1px, -1px) rotate(1deg); }*/
+/*    90% { transform: translate(1px, 2px) rotate(0deg); }*/
+/*    100% { transform: translate(1px, -2px) rotate(-1deg); }*/
+/*}*/
+.overflow-auto{
+    scrollbar-width: none; /* for Firefox */
+    rollbar-width: none;
 }
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+*::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
 }

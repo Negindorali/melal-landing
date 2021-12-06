@@ -16,6 +16,9 @@
 <div class="container-fluid p-0">
     <!--start-hero-section-->
     <div class="col-md-12 pb-5 hero-section">
+        <!--        <video autoplay muted loop>-->
+        <!--            <source src="assets/images/فوتیج-1.m4v" type="video/mp4"/>-->
+        <!--        </video>-->
         <!--        phone-menu-->
         <div class="offcanvas offcanvas-end" id="demo">
             <div class="offcanvas-header my-2">
@@ -54,11 +57,8 @@
             <a class="btn pr-0 d-md-none d-lg-none d-sm-block" data-bs-toggle="offcanvas" data-bs-target="#demo">
                 <i class="fa fa-bars text-white" style="font-size: 18pt"></i>
             </a>
-            <a class="navbar-brand d-block d-md-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png"
-                                                                    class="img-fluid" width="60" height="60"
-                                                                    alt="لوگو-آهن-ملل"></a>
-            <a class="navbar-brand d-md-block d-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png"
-                                                                    class="img-fluid" alt="لوگو-آهن-ملل"></a>
+            <a class="navbar-brand d-block d-md-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid" width="60" height="60" alt="لوگو-آهن-ملل"></a>
+            <a class="navbar-brand d-md-block d-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid" alt="لوگو-آهن-ملل"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item ml-3">
@@ -80,15 +80,9 @@
             </div>
             <a href="tel:03135020" dir="ltr" class="font-weight-bold text-white pt-0 mt-0 d-none d-md-block"
                style="font-size: 15pt"><img
-                    src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span class="text-danger"
-                                                                                                 style="font-size: 15pt">031 -</span>
-                35020</a>
-            <a href="tel:03135020" dir="ltr" class="font-weight-bold text-white pt-0 mt-0 d-md-none d-block"
-               style="font-size: 12pt"><img
-                    src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span class="text-danger"
-                                                                                                 style="font-size: 12pt">031 -</span>
-                35020</a>
-
+                    src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span class="text-danger" style="font-size: 15pt">031 -</span>35020</a>
+            <a href="tel:03135020" dir="ltr" class="font-weight-bold text-white pt-0 mt-0 d-md-none d-block" style="font-size: 12pt"><img src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span
+                    class="text-danger" style="font-size: 12pt">031 -</span>35020</a>
         </nav>
         <h3 class="text-white mt-5 text-center font-weight-bold">از
             صفر تا 100 زنجیره فولاد</h3>
@@ -212,6 +206,16 @@
                     <p class="text-right" style="font-size: 10.25pt">خیر، شرکت آهن‌ملل همه محصولات فولادی را به مشتریان ارائه می‌کند</p>
                 </div>
             </ul>
+            <ul class="px-3 pt-2 pb-3">
+                <li class="text-right d-block py-2 px-0 faq-head count" style="font-size: 10.25pt" data-target="#faq5">
+                    <i class="fa fa-plus float-right pl-3" style="color: #055C9D;"></i>
+                    آیا تهاتر انجام می دهید؟
+                    <i class="fa fa-chevron-down float-left" style="color: #055C9D;"></i>
+                </li>
+                <div class="collapse col-md-8 pb-3 mx-0" id="faq5" style="background-color: #055C9D;">
+                    <p class="text-right" style="font-size: 10.25pt">خیر، فروش فقط به صورت نقدی و یا با ضمانت نامه بانکی انجام می شود.</p>
+                </div>
+            </ul>
         </div>
 
     </div>
@@ -220,7 +224,7 @@
     <!--start-channel-invitation-->
     <div class="row my-md-5 py-md-5 mx-auto" id="robot-telegram">
         <div class="col-md-5 order-1 order-md-0">
-            <img src="assets/images/mockup.png" alt="" class="img-fluid">
+            <img src="assets/images/mokup.gif" alt="" class="img-fluid">
         </div>
         <div class="col-md-5 col-12 pl-md-4 py-5 mt-md-5 mt-3 pr-md-0 mr-auto order-0 order-md-1">
             <h5 class="text-center text-md-right font-weight-bold">جدیدترین <span class="text-danger">قیمت</span>
@@ -593,6 +597,14 @@
 
 <!--footer-->
 <script src="https://code.jquery.com/jquery.js"></script>
+<script>
+
+    $("#type").change(function (){
+        let unit = $(this).find(":selected").data('unit');
+        console.log(unit)
+        $("#meqdar").attr('placeholder',"مقدار "+ unit)
+    })
+</script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

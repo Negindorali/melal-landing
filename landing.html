@@ -48,12 +48,14 @@
                     src="assets/images/phone-call.svg" class="mr-2 phone" alt="melal-call"><span class="text-danger" style="font-size: 15pt">031 - </span>35020</a>
             <a class="navbar-brand d-block d-md-none" href="#"><img src="assets/images/Logo-AhanMelal-02.99-new.png" class="img-fluid" width="60" height="60" alt="لوگو-آهن-ملل"></a>
         </nav>
-        <h3 class="text-white mt-5 text-center font-weight-bold">از
-            صفر تا 100 زنجیره فولاد</h3>
-        <h3 class="text-white text-center font-weight-bold">را برای
-            شما فراهم می کنیم</h3>
-        <p class="text-white text-center py-5" style="font-size: 15pt">پایین ترین
-            قیمت محصولات فولادی! این یک اشتباه تایپی نیست!</p>
+      <div class="position-absolute d-md-block d-none" style="top: 13rem;right:45rem">
+          <h3 class="text-white mt-5 text-center font-weight-bolder">از
+              صفر تا 100 زنجیره فولاد</h3>
+          <h3 class="text-white text-center font-weight-bolder">را برای
+              شما فراهم می کنیم</h3>
+          <p class="text-white text-center py-5" style="font-size: 15pt">پایین ترین
+              قیمت محصولات فولادی! این یک اشتباه تایپی نیست!</p>
+      </div>
     </div>
     <!--end-hero-section-->
     <div class="background-shape d-none d-md-block d-lg-block"></div>
@@ -68,8 +70,12 @@
                     <select id="type" class="sabt-input form-control">
                         <option class="form-control" data-unit="(تن)">میلگرد</option>
                         <option class="form-control" data-unit="(شاخه)">تیرآهن</option>
-                        <option class="form-control" data-unit="(همینه)">شمش آهن</option>
-                        <option class="form-control" data-unit="(چوم)">نبشی و ناودانی</option>
+                        <option class="form-control" data-unit="(همینه)">ورق</option>
+                        <option class="form-control" data-unit="(همینه)">لوله</option>
+                        <option class="form-control" data-unit="(چوم)">پروفیل</option>
+                        <option class="form-control" data-unit="(چوم)">نبشی ناودانی</option>
+                        <option class="form-control" data-unit="(چوم)">محصولات مفتولی</option>
+                        <option class="form-control" data-unit="(چوم)">شمش فولادی</option>
                     </select>
                 </div>
                 <div class="col-md-3 px-4 text-right">
@@ -536,6 +542,7 @@
     <!--    factory-scrolls-phone-mode-->
     <!--end-melal-factories-->
 </div>
+
 <footer>
     <div class="row mx-auto mt-4 py-3 pt-4" style="background-color: rgba(249,249,249,1)">
         <div class="col-md-3 col-auto pt-3 mx-5 mx-md-0 px-4">
@@ -562,22 +569,16 @@
 
 <!--footer-->
 <script src="https://code.jquery.com/jquery.js"></script>
-<script>
-
-    $("#type").change(function (){
-        let unit = $(this).find(":selected").data('unit');
-        console.log(unit)
-        $("#meqdar").attr('placeholder',"مقدار "+ unit)
-    })
-</script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.easing.1.3.js"></script>
 <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!--<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 
 </body>
 

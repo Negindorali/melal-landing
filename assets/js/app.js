@@ -19,6 +19,18 @@ $('.count').click(function () {
 })
 // easyOrder-----------------------------------------------------
 $('.btn-sabt').click(function (){
-    swal("شماره شما با موفقیت ثبت شد." ,
-        "در سریع ترین زمان ممکن با شما تماس می گیریم!","success");
+    swal.fire({
+        title:"گوش به زنگ باشید!",
+        text:"اطلاعات شما با موفقیت ثبت شد، کارشناسان آهن ملل حداکثر تا پایان روز با شما تماس می‌گیرند.درصورتی که هر گونه سوالی داشتید می‌توانید با شماره تماس 03135020 تماس بگیرید.",
+        customClass:{
+            textAlign:'right'
+        }
+    });
+})
+
+
+$("#type").change(function (){
+    let unit = $(this).find(":selected").data('unit');
+    console.log(unit)
+    $("#meqdar").attr('placeholder',"مقدار "+ unit)
 })

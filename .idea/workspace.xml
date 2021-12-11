@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AhanMelalUi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,6 +75,8 @@
       <workItem from="1638854877300" duration="69000" />
       <workItem from="1638879462741" duration="3490000" />
       <workItem from="1638941957015" duration="9840000" />
+      <workItem from="1639040111076" duration="1315000" />
+      <workItem from="1639200629877" duration="31000" />
     </task>
     <servers />
   </component>

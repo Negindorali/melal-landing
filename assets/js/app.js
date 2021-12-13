@@ -29,8 +29,5 @@ $('.btn-sabt').click(function (){
 })
 
 
-$("#type").change(function (){
-    let unit = $(this).find(":selected").data('unit');
-    console.log(unit)
-    $("#meqdar").attr('placeholder',"مقدار "+ unit)
-})
+
+

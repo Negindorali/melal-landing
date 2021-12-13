@@ -2,29 +2,20 @@
 /*    transition: all 1s;*/
 /*}*/
 @font-face {
-    font-family: irsans;
-    src: url("../font/fonts/IRANSansWeb(FaNum)_Light.woff");
-}
-
-@font-face {
-    font-family: irsans-b;
-    src: url("../font/fonts/irsans-b.woff");
-}
-
-@font-face {
-    font-family: irsans-m;
-    src: url("../font/fonts/irsans-m.woff");
+    font-family: rYekan;
+    src: url("../font/fonts/Yekan Bakh FaNum 04 Regular.woff") format('woff');
+    src: url("../font/fonts/Yekan Bakh FaNum 04 Regular.eot");
+    src: url("../font/fonts/Yekan Bakh FaNum 04 Regular.ttf") format('truetype');
 }
 
 * {
-    font-family: irsans;
     text-decoration: none !important;
-
+    font-family: rYekan;!important;
 }
 
 .hero-section {
     background-size: cover;
-    background:linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)) no-repeat center center !important;
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)) no-repeat center center !important;
     height: 840px;
     bottom: 0;
     width: 100%;
@@ -33,18 +24,21 @@
 }
 
 .nav-item {
-    font-size: 12.5pt;
+    font-size: 14pt;
+
 
 }
-.nav-item a.menus{
-    color: white!important;
+
+.nav-item a.menus {
+    color: white !important;
 }
 
 .nav-link {
     color: white !important;
 
 }
-.menus.active{
+
+.menus.active {
     color: white !important;
     border-bottom: 1.5px solid white;
 }
@@ -56,15 +50,15 @@
 .sabt-input {
     border-radius: 5px;
     font-size: 10pt;
-    background-color: rgba(191,215,237,1);
-    border-color: rgba(191,215,237,1);
+    background-color: rgba(191, 215, 237, 1);
+    border-color: rgba(191, 215, 237, 1);
     height: 2.75rem;
 }
 
 .sabt-section {
     border-radius: 5px;
     top: -6.2rem;
-    right:-3%;
+    right: -3%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
 }
 
@@ -89,11 +83,11 @@
     top: -9rem;
     right: 8.5%;
     box-shadow: 5px 10px 10px rgba(191, 215, 237, 0.20);
-    background-color: rgba(242,242,242,1);
+    background-color: rgba(242, 242, 242, 1);
 }
 
 .btn-channel {
-    background-color: rgba(228,2,27,1);
+    background-color: rgba(228, 2, 27, 1);
     border-radius: 8px;
     box-shadow: 5px 10px 10px rgba(228, 2, 27, 0.20);
 }
@@ -129,110 +123,12 @@
     margin-right: 10rem;
 }
 
-/*boot5*/
-.offcanvas-start {
-    top: 0;
-    left: 0;
-    width: 400px;
-    border-right: 1px solid rgba(0, 0, 0, .2);
-    transform: translateX(-100%)
-}
-
-.offcanvas {
-    position: fixed;
-    bottom: 0;
-    z-index: 1045;
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    visibility: hidden;
-    background-color: #fff;
-    background-clip: padding-box;
-    outline: 0;
-    transition: transform .3s ease-in-out;
-    border-radius: 10px;
-
-}
-
-.offcanvas-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1rem
-}
-
-.offcanvas-header .btn-close {
-    padding: .5rem .5rem;
-    margin-top: -.5rem;
-    margin-right: -.5rem;
-    margin-bottom: -.5rem;
-    float: left;
-}
-
-.offcanvas-title {
-    margin-bottom: 0;
-    line-height: 1.5
-}
-
-.offcanvas-body {
-    flex-grow: 1;
-    padding: 1rem 1rem;
-    overflow-y: auto
-}
-
-.offcanvas-start {
-    top: 0;
-    left: 0;
-    width: 400px;
-    border-right: 1px solid rgba(0, 0, 0, .2);
-    transform: translateX(-100%)
-}
-
-.offcanvas-end {
-    top: 0;
-    right: 0;
-    width: 400px;
-    border-left: 1px solid rgba(0, 0, 0, .2);
-    transform: translateX(100%)
-}
-
-.offcanvas-top {
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 30vh;
-    max-height: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-    transform: translateY(-100%)
-}
-
-.offcanvas-bottom {
-    right: 0;
-    left: 0;
-    height: 30vh;
-    max-height: 100%;
-    border-top: 1px solid rgba(0, 0, 0, .2);
-    transform: translateY(100%)
-}
-
-.offcanvas.show {
-    transform: none
-}
-
-.offcanvas-end {
-    top: 0;
-    right: 0;
-    width: 340px;
-    border-left: 1px solid rgba(0, 0, 0, .2);
-    transform: translateX(100%)
-}
-
 #space {
     transition: all .7s;
 }
 
 .rpZizi:hover #space {
-    margin-right: 1rem;
+    margin-right: .5rem;
 }
 
 .select-nav:active {
@@ -241,8 +137,6 @@
     margin-right: 5px;
     margin-left: 5px;
     padding: 13px;
-
-
 }
 
 a.text-muted:active {
@@ -258,39 +152,20 @@ a.text-muted:active {
     padding: 10px;
 }
 
-/*img.phone{*/
-/*    !* Start the shake animation and make the animation last for 0.5 seconds *!*/
-/*    animation: shake .9s;*/
-
-/*    !* When the animation is finished, start again *!*/
-/*    animation-iteration-count: infinite;*/
-/*}*/
-/*@keyframes shake {*/
-/*    0% { transform: translate(1px, 1px) rotate(0deg); }*/
-/*    10% { transform: translate(-1px, -2px) rotate(-1deg); }*/
-/*    20% { transform: translate(-3px, 0px) rotate(1deg); }*/
-/*    30% { transform: translate(3px, 2px) rotate(0deg); }*/
-/*    40% { transform: translate(1px, -1px) rotate(1deg); }*/
-/*    50% { transform: translate(-1px, 2px) rotate(-1deg); }*/
-/*    60% { transform: translate(-3px, 1px) rotate(0deg); }*/
-/*    70% { transform: translate(3px, 1px) rotate(-1deg); }*/
-/*    80% { transform: translate(-1px, -1px) rotate(1deg); }*/
-/*    90% { transform: translate(1px, 2px) rotate(0deg); }*/
-/*    100% { transform: translate(1px, -2px) rotate(-1deg); }*/
-/*}*/
-.overflow-auto{
+.overflow-auto {
     scrollbar-width: none; /* for Firefox */
     rollbar-width: none;
 }
+
 *::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
+
 #myVideo {
     position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-
 }
 
